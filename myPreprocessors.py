@@ -49,4 +49,4 @@ class Mapper(BaseEstimator, TransformerMixin):
         X = X.copy()
         for variable in self.variables:
             X[variable] = X[variable].map(self.mappings)
-        return X
+        return X  
