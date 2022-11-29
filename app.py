@@ -7,8 +7,10 @@ from termcolor import colored
 
 app = Flask(__name__)
 
-#modelo_entrenado_para_produccion = joblib.load('./clase5/housePrice_pipeline_v112022.pkl')
-#FEATURES = joblib.load('./clase5/FEATURES.pkl')
+modelo_GBC = joblib.load('proyecto_pipeline_GBC.pkl')
+modelo_LR = joblib.load('proyecto_pipeline_LR.pkl')
+modelo_RF = joblib.load('proyecto_pipeline_RF.pkl')
+FEATURES = joblib.load('FEATURES.pkl')
 
 @app.route("/PredSurv", methods=['POST'])
 def PredSurv():
