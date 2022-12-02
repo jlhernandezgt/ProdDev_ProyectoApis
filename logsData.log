@@ -60,3 +60,11 @@
 0x90 - exito - se genero correctamente la prediccion - con RandomForest2022-12-01 21:26:57;
 0x90 - exito - se genero correctamente la prediccion - con LogisticRegression2022-12-01 21:26:57;
 0x90 - exito - se genero correctamente la prediccion - con GradientBoostingClassifier2022-12-01 21:26:57;
+0x10 - INFO JSON - transformado exitosamente - 2022-12-01 22:06:49;
+0x90 - exito - se genero correctamente la prediccion - con RandomForest2022-12-01 22:06:49;
+0x90 - exito - se genero correctamente la prediccion - con LogisticRegression2022-12-01 22:06:49;
+0x90 - exito - se genero correctamente la prediccion - con GradientBoostingClassifier2022-12-01 22:06:49;
+0x10 - INFO JSON - transformado exitosamente - 2022-12-01 22:13:00;
+0x90 - exito - se genero correctamente la prediccion - con RandomForest2022-12-01 22:13:00;
+0x90 - exito - se genero correctamente la prediccion - con LogisticRegression2022-12-01 22:13:00;
+0x90 - exito - se genero correctamente la prediccion - con GradientBoostingClassifier2022-12-01 22:13:00;
