@@ -65,7 +65,7 @@ def PredSurv():
         logStr3 = "0x90 - exito - se genero correctamente la prediccion - con GradientBoostingClassifier"
         generateLog(logStr3,90) 
 
-        return jsonify(out,{'mensaje':logStr1},out2,{'mensaje':logStr2}, out3,{'mensaje':logStr3}) 
+        return jsonify(out,{'mensaje':logStr1}, out2,{'mensaje':logStr2}, out3,{'mensaje':logStr3}) 
 
 
     except ValueError:
